@@ -1,0 +1,51 @@
+section{
+	background-color: #099ab2;
+}
+header, footer {
+	background-color: #b22365;
+	color:#ffea38;
+}
+section{
+	padding: 2%;
+}
+form{
+	padding-top: 25%;
+}
+
+header h1{
+	padding-left: 35%;
+}
+
+.text-yellow{
+	color:#ffea38;
+	font-weight: bolder;
+}
+
+.instructions{
+	background-color: #b22365;
+	padding: 5%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	display: none;
+	z-index: 1;	
+}
+.btn{
+	background-color: #b22365;
+	color: #ffea38;
+}
+
+.selecter{
+	background-color: #b22365 !important;
+	color: #ffea38; 
+	width: 80% !important;
+	height: auto;
+	margin-top: 2%;
+	margin-left: -15%;
+}
+.pd5{
+	padding: 5%;
+}
+.pd2{
+	padding: 1%;
+}

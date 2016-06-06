@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Smash Faces</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+	<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-md-8 col-lg-8">
+					<center>	
+						<h1 class="text-yellow">SMASH FACES</h1>
+					</center>
+				</div>
+				<div class="col-xs-4 col-md-4 col-lg-4">
+					<center>	
+						<h1><i class="fa fa-info-circle" aria-hidden="true" id="btnInstructions"></i></h1>
+					</center>
+					<div class="instructions">
+						Bienvenida al juego de Smash Faces, tu misión es  poder identificar a todas tus compañeras de clase , ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente imagen.
+						Buena Suerte!
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-md-3 col-lg-3">
+					<h2 class="text-yellow">Elige tu sede: </h2>
+				</div>
+				<div class="col-xs-5 col-md-5 col-lg-5">
+					<select name="selectorPais" class="form-control input-lg selecter selectpicker" type="text" placeholder="" id="pais">
+						<option value=""><a href="#"></a></option>
+						<option value="chile"><a href="#">Chile</a></option>
+						<option value="lima"><a href="#">Lima</a></option>
+						<option value="mexico"><a href="#">México</a></option>
+					</select>
+				</div>
+				<div class="col-xs-4 col-md-4 col-lg-4">
+					<h2 class="text-yellow">
+						Puntaje:<span id="puntaje"> </span>
+					</h2>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-6 col-lg-6 pd5">
+					<img id="img-alumna" src="" class="img-responsive img-circle">
+				</div>
+				<div class="col-xs-6 col-md-6 col-lg-6 pd5">
+					
+					  <div class="form-group">
+					    <input type="text" class="form-control" id="inputText" placeholder="Nombre">
+					  </div>
+					  <button id="btnComprobar" class="btn">Comprobar</button>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-12 pd2">
+					<center>
+						Smash Faces
+					</center>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+    <!-- ////////////////ALGUN SCRIPT DEL SLIDE AFECTA EL REGRESO DEL MENU EN RESPONSIVE REVISAR QUE ES7///////////////////// -->
+
+<!--Aqui el link de internet para el jQuery
+  <script src="http://code.jquery.com/jquery-1.6.1.js"></script>-->
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> 
+	</body>
+</html>
